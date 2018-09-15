@@ -16,7 +16,7 @@ import org.springframework.web.filter.CorsFilter;
 @Configuration
 public class CorsConfig {
 
-	//自己的git
+	//自己的git  在册时候
 	private CorsConfiguration buildConfig() {
 		CorsConfiguration corsConfiguration = new CorsConfiguration();
 		// 允许任何域名使用
