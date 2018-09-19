@@ -1,5 +1,6 @@
 package com.fpi.bims;
 
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.embedded.EmbeddedServletContainerFactory;
@@ -17,6 +18,7 @@ import java.util.concurrent.TimeUnit;
  */
 @ComponentScan
 @SpringBootApplication
+@MapperScan("com.fpi.bims.model")
 public class BimsApplication {
 	@Bean
 	EmbeddedServletContainerFactory servletContainer(){

@@ -57,3 +57,6 @@ fpi:
     exception: true
 servier:
   port : 8009
+mybatis:
+  typeAliasesPackage: com.fpi.bims.model
+  mapperLocations: classpath:mapper/*.xml
